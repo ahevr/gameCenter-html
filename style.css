@@ -87,8 +87,8 @@ body {
 /*  ! Sidebar */
 .container {
     display: grid;
-    grid-template-columns: 1fr 5fr 3fr;
-    grid-template-rows: 3fr 0.5fr 3fr;
+    grid-template-columns: 1fr 6fr 5fr;
+    grid-template-rows: 2fr 0.5fr 2fr;
     grid-column-gap: 40px;
     grid-row-gap: 0px;
     column-gap: 2rem;
@@ -251,6 +251,7 @@ body {
 
 .container .main-image .main-content-image img {
     width: 60px;
+    height: 60px;
     border-radius: 50%;
 
 }
@@ -303,6 +304,7 @@ body {
     text-transform: uppercase;
     font-size: 13px;
 }
+
 .container .rightbar-top .topContent .subTitle {
     color: white;
     font-size: 10px;
@@ -320,6 +322,7 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
 .container .rightbar-top .topContent .following {
     color: white;
     font-size: 10px;
@@ -327,9 +330,51 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
 .container .rightbar-bot {
     background-color: #161122;
     border-radius: 30px;
     padding: 35px;
     grid-area: 3 / 3 / 4 / 4;
+}
+
+.container .rightbar-bot .botContent-title {
+    color: white;
+    text-transform: uppercase;
+}
+
+.container .rightbar-bot .botContent {
+    margin-top: 10px;
+}
+
+.container .rightbar-bot .botContent .botContent-top {
+    display: flex;
+    color: white;
+    font-size: 10px;
+    gap: 15px;
+}
+
+.container .rightbar-bot .botContent img {
+    max-width: 100%;
+    border-radius: 10%;
+}
+
+.container .rightbar-bot .botContent img:hover {
+    opacity: 0.6;
+    transition: ease-in 0.2s;
+}
+
+
+
+
+
+
+.container .rightbar-bot .botContent .botContent-bottom img {
+    width: 70px;
+    border-radius: 10%;
+}
+
+.container .rightbar-bot .botContent .botContent-bottom img:hover {
+    opacity: 0.6;
+    transition: ease-in 0.2s;
 }
