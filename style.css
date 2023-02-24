@@ -308,12 +308,12 @@ body {
     font-size: 10px;
 }
 
-.container .rightbar-top .topContent .followers {
+.container .rightbar-top .topContent .followers-content {
     display: flex;
     gap: 15px;
 }
 
-.container .rightbar-top .topContent .followerss {
+.container .rightbar-top .topContent .followers {
     color: white;
     font-size: 10px;
     display: flex;
