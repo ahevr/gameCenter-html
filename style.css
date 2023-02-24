@@ -371,11 +371,6 @@ body {
     transition: ease-in 0.2s;
 }
 
-
-
-
-
-
 .container .rightbar-bot .botContent .botContent-bottom img {
     width: 70px;
     border-radius: 10%;
@@ -384,4 +379,32 @@ body {
 .container .rightbar-bot .botContent .botContent-bottom img:hover {
     opacity: 0.6;
     transition: ease-in 0.2s;
+}
+
+
+
+
+
+/* laptops, desktops */
+@media (min-width: 1025px) and (max-width: 1500px) {
+    .container {
+        display: grid;
+        grid-template-columns: 0fr 6fr 2fr;
+        grid-template-rows: 1fr 0fr 1fr;
+        grid-column-gap: 40px;
+        grid-row-gap: 6px;
+        column-gap: 1rem;
+        position: relative;
+        margin-top: 40px;
+    }
+}
+
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+/*smartphones mobiles (portrait)*/
+@media (min-width: 320px) and (max-width: 480px) {
+    
 }
